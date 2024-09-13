@@ -12,7 +12,7 @@ int main(void) {
   }
 
   uint16_t angle = 0;
-  uint16_t index = 1; // the first index available.
+  uint16_t index = 0; // the first index available.
 
   // Changes the angle of the servomotor from 0 to 180 degrees (waiting 0.1 ms between every change).
   for (int i = 0; i <= 180; i++) {
